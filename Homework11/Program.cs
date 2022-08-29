@@ -21,5 +21,5 @@ Console.WriteLine("Введите Z: ");
 int z2 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Расстояние между точками: ");
-double distance = Math.Sqrt(sqrt(x1,x2)+sqrt(y1,y2)+sqrt(z1,z2));
+double distance = Math.Sqrt(sqr(x1,x2)+sqr(y1,y2)+sqr(z1,z2));
 Console.WriteLine("{0:F2}", distance);
