@@ -23,7 +23,7 @@ void PrintArray(int[,] arr) //arr - array
     }
 }
 
-void FindColumnSum(int[,] arr, int[] ASC) ////arr - array
+void FindColumnSum(int[,] arr, int[] ASC) ////arr - array, ASC - ArraySumColumn
 {
     for(int j=0; j<arr.GetLength(1);j++)
     {
