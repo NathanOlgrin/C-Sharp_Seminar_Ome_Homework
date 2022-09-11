@@ -27,9 +27,9 @@ void FillAverage(int[,] arr) ////arr - array
 {
     double avg=0;
     int count=0;
-    for(int j=0;j<arr.GetLength(0);j++)
+    for(int j=0;j<arr.GetLength(1);j++)
     {
-        for(int i=0; i<arr.GetLength(1);i++)
+        for(int i=0; i<arr.GetLength(0);i++)
         {
             avg=avg+arr[i,j];
             count++;
