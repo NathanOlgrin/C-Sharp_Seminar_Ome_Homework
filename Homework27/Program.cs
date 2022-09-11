@@ -35,7 +35,7 @@ void FillAverage(int[,] arr) ////arr - array
             count++;
         }
         avg=avg/count;
-        Console.WriteLine($"Сумма числе в {j+1}-ом столбце равна: {Math.Round(avg, 2)}");
+        Console.WriteLine($"Сумма чисел в {j+1}-ом столбце равна: {Math.Round(avg, 2)}");
         avg=0;
         count=0;
     }
