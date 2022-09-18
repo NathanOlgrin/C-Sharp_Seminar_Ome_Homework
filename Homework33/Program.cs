@@ -1,7 +1,5 @@
 ﻿// Напишите программу, которая заполнит спирально массив 4 на 4.
 
-
-Console.WriteLine("Hello, World!");
 int[,] array = new int[4,4];
 
 int i=0, j, k = 0, p=1;
